@@ -1,0 +1,110 @@
+{
+    "metis": [
+        {
+            "timestamp": "2025-10-31 13:32:16",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 15,
+                "modularity": 0.49247480431805496,
+                "coverage": 0.9924849699398798,
+                "performance": 0.5053256851993064
+            }
+        },
+        {
+            "timestamp": "2025-10-31 13:32:23",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 36,
+                "modularity": 0.7819454038337197,
+                "coverage": 0.9819639278557114,
+                "performance": 0.8055481351602077
+            }
+        },
+        {
+            "timestamp": "2025-10-31 13:32:19",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 14,
+                "modularity": 0.6596244844398216,
+                "coverage": 0.9929859719438878,
+                "performance": 0.6721801553264137
+            }
+        },
+        {
+            "timestamp": "2025-10-31 13:32:21",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 32,
+                "modularity": 0.7339447180935016,
+                "coverage": 0.9839679358717435,
+                "performance": 0.7555187503946301
+            }
+        }
+    ],
+    "Spectral": [
+        {
+            "timestamp": "2025-10-31 13:32:18",
+            "algorithm": "Spectral",
+            "metrics": {
+                "cross_weight": 6,
+                "modularity": 0.41875798189565494,
+                "coverage": 0.996993987975952,
+                "performance": 0.431429071004279
+            }
+        },
+        {
+            "timestamp": "2025-10-31 13:32:15",
+            "algorithm": "Spectral",
+            "metrics": {
+                "cross_weight": 3,
+                "modularity": 0.4050273643479343,
+                "coverage": 0.998496993987976,
+                "performance": 0.41492503242038187
+            }
+        },
+        {
+            "timestamp": "2025-10-31 13:32:22",
+            "algorithm": "Spectral",
+            "metrics": {
+                "cross_weight": 18,
+                "modularity": 0.7259884247452821,
+                "coverage": 0.9909819639278558,
+                "performance": 0.7429124431125509
+            }
+        },
+        {
+            "timestamp": "2025-10-31 13:32:20",
+            "algorithm": "Spectral",
+            "metrics": {
+                "cross_weight": 15,
+                "modularity": 0.6783144194200024,
+                "coverage": 0.9924849699398798,
+                "performance": 0.6935338944771212
+            }
+        }
+    ],
+    "Louvain": [
+        {
+            "timestamp": "2025-10-31 13:32:25",
+            "algorithm": "Louvain",
+            "metrics": {
+                "cross_weight": 91,
+                "modularity": 0.905235194838575,
+                "coverage": 0.9544088176352705,
+                "performance": 0.9567291113172632
+            }
+        }
+    ],
+    "KernighanLin": [
+        {
+            "timestamp": "2025-10-31 13:32:24",
+            "algorithm": "KernighanLin",
+            "metrics": {
+                "cross_weight": 81,
+                "modularity": 0.4592982307299971,
+                "coverage": 0.9594188376753507,
+                "perfoemance": 0.5050051241202784
+            }
+        }
+    ]
+}

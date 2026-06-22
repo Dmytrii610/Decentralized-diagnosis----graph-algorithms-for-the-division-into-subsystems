@@ -1,0 +1,14 @@
+{
+    "Louvain": [
+        {
+            "timestamp": "2025-10-31 13:32:25",
+            "algorithm": "Louvain",
+            "metrics": {
+                "cross_weight": 91,
+                "modularity": 0.905235194838575,
+                "coverage": 0.9544088176352705,
+                "performance": 0.9567291113172632
+            }
+        }
+    ]
+}

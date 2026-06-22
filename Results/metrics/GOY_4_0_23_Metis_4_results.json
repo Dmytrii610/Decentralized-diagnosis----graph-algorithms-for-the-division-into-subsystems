@@ -1,0 +1,14 @@
+{
+    "metis": [
+        {
+            "timestamp": "2025-10-31 13:32:11",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 30,
+                "modularity": 0.565957763236169,
+                "coverage": 0.8170731707317073,
+                "performance": 0.8245614035087719
+            }
+        }
+    ]
+}

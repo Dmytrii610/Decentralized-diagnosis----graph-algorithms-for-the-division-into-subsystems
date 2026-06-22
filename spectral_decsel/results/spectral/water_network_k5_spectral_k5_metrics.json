@@ -1,0 +1,10 @@
+{
+  "method": "Spectral",
+  "cross_weight": 26.0,
+  "communication_cost": 20,
+  "modularity": -0.05158730158730163,
+  "coverage": 0.3333333333333333,
+  "performance": 0.4444444444444444,
+  "clusters": 5,
+  "weighted": true
+}

@@ -1,0 +1,15 @@
+{
+    "Spectral": [
+        {
+            "timestamp": "2025-12-12 14:40:27",
+            "algorithm": "Spectral",
+            "metrics": {
+                "cross_weight": 34,
+                "modularity": 0.3990349892534871,
+                "coverage": 0.8990825688073395,
+                "performance": 0.5987797180727962,
+                "clusters": 3
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "KernighanLin": [
+        {
+            "timestamp": "2025-10-31 13:32:10",
+            "algorithm": "KernighanLin",
+            "metrics": {
+                "cross_weight": 26,
+                "modularity": 0.4091680371733626,
+                "coverage": 0.9204892966360856,
+                "perfoemance": 0.5630128339995792
+            }
+        }
+    ]
+}

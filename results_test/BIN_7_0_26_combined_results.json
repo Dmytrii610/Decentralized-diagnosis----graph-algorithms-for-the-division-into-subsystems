@@ -1,0 +1,107 @@
+{
+    "metis": [
+        {
+            "timestamp": "2025-12-12 14:40:57",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 15,
+                "modularity": 0.49247480431805496,
+                "coverage": 0.9924849699398798,
+                "performance": 0.5053256851993064,
+                "clusters": 2
+            }
+        },
+        {
+            "timestamp": "2025-12-12 14:43:00",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 36,
+                "modularity": 0.7819454038337197,
+                "coverage": 0.9819639278557114,
+                "performance": 0.8055481351602077,
+                "clusters": 5
+            }
+        },
+        {
+            "timestamp": "2025-12-12 14:41:38",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 14,
+                "modularity": 0.6596244844398216,
+                "coverage": 0.9929859719438878,
+                "performance": 0.6721801553264137,
+                "clusters": 3
+            }
+        },
+        {
+            "timestamp": "2025-12-12 14:42:19",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 32,
+                "modularity": 0.7339447180935016,
+                "coverage": 0.9839679358717435,
+                "performance": 0.7555187503946301,
+                "clusters": 4
+            }
+        }
+    ],
+    "Spectral": [
+        {
+            "timestamp": "2025-12-12 14:41:37",
+            "algorithm": "Spectral",
+            "metrics": {
+                "cross_weight": 6,
+                "modularity": 0.41875798189565494,
+                "coverage": 0.996993987975952,
+                "performance": 0.431429071004279,
+                "clusters": 3
+            }
+        },
+        {
+            "timestamp": "2025-12-12 14:40:56",
+            "algorithm": "Spectral",
+            "metrics": {
+                "cross_weight": 3,
+                "modularity": 0.4050273643479343,
+                "coverage": 0.998496993987976,
+                "performance": 0.41492503242038187,
+                "clusters": 2
+            }
+        },
+        {
+            "timestamp": "2025-12-12 14:42:59",
+            "algorithm": "Spectral",
+            "metrics": {
+                "cross_weight": 18,
+                "modularity": 0.7259884247452821,
+                "coverage": 0.9909819639278558,
+                "performance": 0.7429124431125509,
+                "clusters": 5
+            }
+        },
+        {
+            "timestamp": "2025-12-12 14:42:18",
+            "algorithm": "Spectral",
+            "metrics": {
+                "cross_weight": 15,
+                "modularity": 0.6783144194200024,
+                "coverage": 0.9924849699398798,
+                "performance": 0.6935338944771212,
+                "clusters": 4
+            }
+        }
+    ],
+    "KernighanLin": [
+        {
+            "timestamp": "2025-12-12 14:43:40",
+            "algorithm": "KernighanLin",
+            "metrics": {
+                "cross_weight": 74,
+                "modularity": 0.46292534969739074,
+                "coverage": 0.9629258517034068,
+                "perfoemance": 0.5050391230225996,
+                "clusters": 2
+            }
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+  "experiment": "Spectral Clustering - DecSel Integration",
+  "date": "2026-01-27",
+  "network": "Water Distribution Network (Custom Format)",
+  "methods_tested": [
+    "Spectral (k=2,3,4,5)",
+    "Louvain"
+  ],
+  "results": {
+    "spectral": {
+      "k_2": {
+        "method": "Spectral",
+        "cross_weight": 14.0,
+        "communication_cost": 13,
+        "modularity": 0.09410430839002268,
+        "coverage": 0.5666666666666667,
+        "performance": 0.6111111111111112,
+        "clusters": 2,
+        "weighted": true
+      },
+      "k_3": {
+        "method": "Spectral",
+        "cross_weight": 19.0,
+        "communication_cost": 17,
+        "modularity": 0.0762471655328798,
+        "coverage": 0.43333333333333335,
+        "performance": 0.5277777777777778,
+        "clusters": 3,
+        "weighted": true
+      },
+      "k_4": {
+        "method": "Spectral",
+        "cross_weight": 19.0,
+        "communication_cost": 15,
+        "modularity": -0.02012471655328796,
+        "coverage": 0.5,
+        "performance": 0.5833333333333334,
+        "clusters": 4,
+        "weighted": true
+      },
+      "k_5": {
+        "method": "Spectral",
+        "cross_weight": 26.0,
+        "communication_cost": 20,
+        "modularity": -0.05158730158730163,
+        "coverage": 0.3333333333333333,
+        "performance": 0.4444444444444444,
+        "clusters": 5,
+        "weighted": true
+      }
+    },
+    "louvain": 0.09410430839002268
+  }
+}

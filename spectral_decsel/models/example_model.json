@@ -1,0 +1,29 @@
+{
+  "model": {
+    "ComponentA": [
+      "param1",
+      "param2",
+      "param3"
+    ],
+    "ComponentB": [
+      "param2",
+      "param3",
+      "param4"
+    ],
+    "ComponentC": [
+      "param3",
+      "param4",
+      "param5"
+    ],
+    "ComponentD": [
+      "param4",
+      "param5",
+      "param6"
+    ],
+    "ComponentE": [
+      "param1",
+      "param5",
+      "param6"
+    ]
+  }
+}

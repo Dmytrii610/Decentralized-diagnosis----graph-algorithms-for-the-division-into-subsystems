@@ -1,0 +1,37 @@
+{
+    "metis": [
+        {
+            "timestamp": "2025-12-12 14:40:36",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 60,
+                "modularity": 0.6130167680406541,
+                "coverage": 0.8226299694189603,
+                "performance": 0.8523038081211867,
+                "clusters": 5
+            }
+        },
+        {
+            "timestamp": "2026-06-22 15:53:00",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 60,
+                "modularity": 0.6130167680406541,
+                "coverage": 0.8226299694189603,
+                "performance": 0.8523038081211867,
+                "clusters": 5
+            }
+        },
+        {
+            "timestamp": "2026-06-22 15:54:46",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 60,
+                "modularity": 0.6130167680406541,
+                "coverage": 0.8226299694189603,
+                "performance": 0.8523038081211867,
+                "clusters": 5
+            }
+        }
+    ]
+}
