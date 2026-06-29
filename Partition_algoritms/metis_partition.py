@@ -1,3 +1,4 @@
+import os
 import json
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -79,11 +80,12 @@ def metis_clustering(G, position, n_clusters=2, nodes_color=None,network_name=No
     save_metrics_to_json(network_name,"metis", metrics)
     print(f"Początkowa liczba klastrów: {len(communities)}")
     print_graph_info(G, label_dict, nodes_order=list(G.nodes()))
+    output_dir = os.path.join("results_png", network_name)
     if nodes_color is None:
         colors = [label_dict[n] for n in G.nodes()]
-        nx.draw(G, position, node_color=colors, with_labels=True, cmap=plt.cm.tab10, node_size=500)
+        nx.draw(G, position, node_color=colors, with_labels=False, cmap=plt.cm.tab10, node_size=100)
     else:
         colors = [nodes_color[label_dict[n] % len(nodes_color)] for n in G.nodes()]
-        nx.draw(G, position, node_color=colors, with_labels=True, node_size=500)
-    plt.savefig("Metis_clustering.png", dpi=300, bbox_inches="tight")
+        nx.draw(G, position, node_color=colors, with_labels=False, node_size=100)
+    plt.savefig(output_dir, dpi=300, bbox_inches="tight")
     plt.clf()

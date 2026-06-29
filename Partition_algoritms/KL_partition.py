@@ -1,3 +1,4 @@
+import os
 import json
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -68,6 +69,7 @@ def KL_clustering(G, iterations, position,network_name):
     print(f"Wartość modularności: {modularity}")
     print(f"Coverage: {coverage}")
     print(f"Performance: {performance}")
-    nx.draw(G, position, node_color=colors, with_labels=True, node_size=500)
-    plt.savefig("KernighanLin_clustering.png", dpi=300, bbox_inches="tight")
+    output_dir = os.path.join("results_png", network_name)
+    nx.draw(G, position, node_color=colors, with_labels=False, node_size=100)
+    plt.savefig(output_dir, dpi=300, bbox_inches="tight")
     plt.clf()

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.png
+results_test/
+*.json
+.env

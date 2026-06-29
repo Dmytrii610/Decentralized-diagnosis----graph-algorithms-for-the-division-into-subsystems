@@ -1,3 +1,4 @@
+import os
 import json
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -63,7 +64,7 @@ def print_graph_info(G, labels, nodes_order=None):
 def spectral_clustering(G, k, nodes_color, position, nodes_order=None,network_name=None):
     if nodes_order is None:
         nodes_order = list(G.nodes())
-    L = nx.laplacian_matrix(G, nodelist=nodes_order)
+    L = nx.laplacian_matrix(G, nodelist=nodes_order).astype(float)
     n = L.shape[0]
     if k >= n:
         raise ValueError("k must be smaller than number of nodes")
@@ -88,6 +89,7 @@ def spectral_clustering(G, k, nodes_color, position, nodes_order=None,network_na
     save_metrics_to_json(network_name,"Spectral", metrics)
     color_list = [nodes_color[label_dict[n] % len(nodes_color)] for n in nodes_order]
     print_graph_info(G, labels_array, nodes_order=nodes_order)
-    nx.draw(G, position, node_color=color_list, with_labels=True, node_size=500)
-    plt.savefig("spectral_clustering.png", dpi=300, bbox_inches="tight")
+    output_dir = os.path.join("results_png", network_name)
+    nx.draw(G, position, node_color=color_list, with_labels=False, node_size=100)
+    plt.savefig(output_dir, dpi=300, bbox_inches="tight")
     plt.clf()

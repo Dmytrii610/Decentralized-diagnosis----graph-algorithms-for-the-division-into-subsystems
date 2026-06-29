@@ -1,3 +1,4 @@
+import os
 import json
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -131,7 +132,7 @@ def louvain_clustering(G, k, position, nodes_color, network_name):
     colors = [nodes_color[label_dict[n] % len(nodes_color)] for n in G.nodes()]
 
     print_graph_info(G, partition, nodes_order=list(G.nodes()))
-
-    nx.draw(G, position, node_color=colors, with_labels=True, cmap=plt.cm.Set2, node_size=500)
-    plt.savefig("Louvain_clustering.png", dpi=300, bbox_inches="tight")
+    output_dir = os.path.join("results_png", network_name)
+    nx.draw(G, position, node_color=colors, with_labels=False, cmap=plt.cm.Set2, node_size=100)
+    plt.savefig(output_dir, dpi=300, bbox_inches="tight")
     plt.clf()

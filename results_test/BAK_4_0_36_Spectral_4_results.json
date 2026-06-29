@@ -10,6 +10,39 @@
                 "performance": 0.7414264674942141,
                 "clusters": 4
             }
+        },
+        {
+            "timestamp": "2026-06-29 11:58:49",
+            "algorithm": "Spectral",
+            "metrics": {
+                "cross_weight": 37,
+                "modularity": 0.5492251198649507,
+                "coverage": 0.8899082568807339,
+                "performance": 0.7414264674942141,
+                "clusters": 4
+            }
+        },
+        {
+            "timestamp": "2026-06-29 12:01:40",
+            "algorithm": "Spectral",
+            "metrics": {
+                "cross_weight": 37,
+                "modularity": 0.5492251198649507,
+                "coverage": 0.8899082568807339,
+                "performance": 0.7414264674942141,
+                "clusters": 4
+            }
+        },
+        {
+            "timestamp": "2026-06-29 12:05:31",
+            "algorithm": "Spectral",
+            "metrics": {
+                "cross_weight": 37,
+                "modularity": 0.5492251198649507,
+                "coverage": 0.8899082568807339,
+                "performance": 0.7414264674942141,
+                "clusters": 4
+            }
         }
     ]
 }

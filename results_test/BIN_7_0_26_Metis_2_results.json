@@ -21,6 +21,50 @@
                 "performance": 0.5053256851993064,
                 "clusters": 2
             }
+        },
+        {
+            "timestamp": "2026-06-29 11:54:18",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 15,
+                "modularity": 0.49247480431805496,
+                "coverage": 0.9924849699398798,
+                "performance": 0.5053256851993064,
+                "clusters": 2
+            }
+        },
+        {
+            "timestamp": "2026-06-29 11:58:57",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 15,
+                "modularity": 0.49247480431805496,
+                "coverage": 0.9924849699398798,
+                "performance": 0.5053256851993064,
+                "clusters": 2
+            }
+        },
+        {
+            "timestamp": "2026-06-29 12:01:48",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 15,
+                "modularity": 0.49247480431805496,
+                "coverage": 0.9924849699398798,
+                "performance": 0.5053256851993064,
+                "clusters": 2
+            }
+        },
+        {
+            "timestamp": "2026-06-29 12:05:37",
+            "algorithm": "metis",
+            "metrics": {
+                "cross_weight": 15,
+                "modularity": 0.49247480431805496,
+                "coverage": 0.9924849699398798,
+                "performance": 0.5053256851993064,
+                "clusters": 2
+            }
         }
     ]
 }

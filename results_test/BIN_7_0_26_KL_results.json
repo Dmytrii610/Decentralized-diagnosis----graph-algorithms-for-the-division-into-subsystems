@@ -21,6 +21,50 @@
                 "perfoemance": 0.505063407952829,
                 "clusters": 2
             }
+        },
+        {
+            "timestamp": "2026-06-29 11:54:18",
+            "algorithm": "KernighanLin",
+            "metrics": {
+                "cross_weight": 111,
+                "modularity": 0.44425210641724333,
+                "coverage": 0.9443887775551102,
+                "perfoemance": 0.504859414538902,
+                "clusters": 2
+            }
+        },
+        {
+            "timestamp": "2026-06-29 11:59:06",
+            "algorithm": "KernighanLin",
+            "metrics": {
+                "cross_weight": 93,
+                "modularity": 0.4534036760896542,
+                "coverage": 0.9534068136272545,
+                "perfoemance": 0.5049468402877278,
+                "clusters": 2
+            }
+        },
+        {
+            "timestamp": "2026-06-29 12:01:55",
+            "algorithm": "KernighanLin",
+            "metrics": {
+                "cross_weight": 76,
+                "modularity": 0.4619057754788133,
+                "coverage": 0.9619238476953907,
+                "perfoemance": 0.5050294090505077,
+                "clusters": 2
+            }
+        },
+        {
+            "timestamp": "2026-06-29 12:05:39",
+            "algorithm": "KernighanLin",
+            "metrics": {
+                "cross_weight": 111,
+                "modularity": 0.44413463700948996,
+                "coverage": 0.9443887775551102,
+                "perfoemance": 0.504859414538902,
+                "clusters": 2
+            }
         }
     ]
 }
